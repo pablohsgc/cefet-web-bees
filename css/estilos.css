@@ -1,0 +1,105 @@
+body{
+    background-image: linear-gradient( 0deg, #1fd43f, #a8c5fd );
+    height: 100%;
+    min-height: 100vh;
+    margin: 0 60px;
+}
+
+p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+#logomarca{
+    margin: auto;
+    display: block;
+}
+
+#cabecalho{
+    display: block;
+    box-shadow: 4px 4px 4px #0003;
+    padding: 30px;
+    background-color: rgba(255,255,255,.2);
+}
+
+.curiosidade{
+    background-image: url(../imgs/favo-de-mel.png);
+    border-radius: 5px;
+    padding: 20px;
+    border: 1px solid orange;
+}
+
+.curiosidade img{
+    float: left;
+    margin-right: 20px;
+}
+
+.casta-de-abelha{
+    border-radius: 50%;
+    border: 5px double orange;
+}
+
+.operarias{
+    float: left;
+    margin-right: 20px;
+    shape-outside: circle(50%);
+}
+
+.zangoes{
+    float: right;
+    margin-left: 20px;
+    shape-outside: circle(50%);
+}
+
+.rainha{
+    float: left;
+    margin-right: 20px;
+    shape-outside: circle(50%);
+}
+
+.espacamento-sup{
+    margin-top: 50px;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+a:link{
+    color: blue;
+}
+
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+a:active{
+    color: green;
+}
+
+a:visited{
+    color: orangered;
+}
+
+a[href="zangoes.html"]{
+    color: red;
+}
+
+
+a[href^="https:"]{
+    background-color: #8e8e8e;
+}
+
+p:last-of-type{
+    text-align: right;
+}
+
+img:not([alt]){/*Destaca borda vermelha em todas as imagens sem alt*/
+    border: 2px solid red;
+}
+
+#curiosidade1-rainha{
+    clear: left;/*cancelando flutuação*/
+}
